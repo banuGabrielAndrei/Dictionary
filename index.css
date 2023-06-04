@@ -1,0 +1,15 @@
+#addWord {
+    width: 100px;
+    height: 50;
+    background-color:blue;
+}
+
+#checkWord {
+    width: 100px;
+    height: 50;
+    background-color:green;
+}
+
+#dictionary {
+    text-align: center;
+}
