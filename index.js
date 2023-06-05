@@ -1,12 +1,12 @@
 let dictionaryWords = [];
 
-function addWords() {
+function addWord() {
     if (!dictionaryWords.includes(document.getElementById("wordsIn").value)) {
         dictionaryWords.push(document.getElementById("wordsIn").value);
     }
 }
 
-function checkWord() {
+function searchWord() {
     let userMessage = document.getElementById("messageForUser");
     if (dictionaryWords.includes(document.getElementById("searchedWord").value)) {
         userMessage.textContent = "The word" + " " + document.getElementById("searchedWord").value + " " + "exists in the Dictionary";
